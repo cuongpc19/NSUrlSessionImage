@@ -12,6 +12,7 @@
 		44BB11111E8016F4005BAF93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44BB110F1E8016F4005BAF93 /* Main.storyboard */; };
 		44BB11131E8016F4005BAF93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44BB11121E8016F4005BAF93 /* Assets.xcassets */; };
 		44BB11161E8016F4005BAF93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44BB11141E8016F4005BAF93 /* LaunchScreen.storyboard */; };
+		44BB111E1E802EFA005BAF93 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44BB111D1E802EFA005BAF93 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		44BB11121E8016F4005BAF93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44BB11151E8016F4005BAF93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		44BB11171E8016F4005BAF93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44BB111D1E802EFA005BAF93 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				44BB110B1E8016F4005BAF93 /* AppDelegate.swift */,
 				44BB110D1E8016F4005BAF93 /* ViewController.swift */,
+				44BB111D1E802EFA005BAF93 /* Constants.swift */,
 				44BB110F1E8016F4005BAF93 /* Main.storyboard */,
 				44BB11121E8016F4005BAF93 /* Assets.xcassets */,
 				44BB11141E8016F4005BAF93 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			files = (
 				44BB110E1E8016F4005BAF93 /* ViewController.swift in Sources */,
 				44BB110C1E8016F4005BAF93 /* AppDelegate.swift in Sources */,
+				44BB111E1E802EFA005BAF93 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
